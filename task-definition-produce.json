@@ -1,0 +1,45 @@
+{
+  "family": "foxx-web-ui",
+  "containerDefinitions": [
+    {
+      "name": "foxx-web-ui",
+      "image": "908027373537.dkr.ecr.us-east-2.amazonaws.com/foxx-ui:produce",
+      "memory": 4096,
+      "cpu": 2048,
+      "portMappings": [
+        {
+          "name": "8080",
+          "containerPort": 8080,
+          "hostPort": 8080,
+          "protocol": "tcp",
+          "appProtocol": "http"
+        }
+      ],
+      "essential": true,
+      "environment": [],
+      "mountPoints": [],
+      "volumesFrom": [],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/foxx-web-ui",
+          "mode": "non-blocking",
+          "awslogs-create-group": "true",
+          "max-buffer-size": "25m",
+          "awslogs-region": "us-east-2",
+          "awslogs-stream-prefix": "ecs"
+        },
+        "secretOptions": []
+      },
+      "systemControls": []
+    }
+  ],
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": [
+    "FARGATE"
+  ],
+  "cpu": "2048",
+  "memory": "4096",
+  "executionRoleArn": "arn:aws:iam::908027373537:role/ecsTaskExecutionRole"
+}
+

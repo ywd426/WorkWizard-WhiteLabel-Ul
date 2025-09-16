@@ -1,0 +1,123 @@
+// 设置对话框共享样式
+$color-primary: #09f;
+$color-red: #ff384c;
+$color-green: #00ba4a;
+$color-orange: #ff8401;
+$color-yellow: #e6a23c;
+$color-gray: #71797E;
+$color-text-primary: #11191e;
+$color-text-secondary: #606266;
+$color-border: rgba(211, 219, 224, 0.4);
+$color-bg-light: #f5f7fa;
+$color-bg-primary-light: rgba(0, 153, 255, 0.05);
+$color-bg-primary-medium: rgba(0, 153, 255, 0.1);
+
+// 设置对话框基础样式
+.settings-dialog {
+  .el-dialog__header {
+    padding: 20px 20px 10px;
+    border-bottom: 1px solid $color-border;
+    
+    .el-dialog__title {
+      color: $color-text-primary;
+      font-size: 20px !important;
+      font-weight: 700;
+      line-height: 24px !important;
+    }
+  }
+  
+  .el-dialog__body {
+    padding: 20px;
+    max-height: calc(80vh - 120px);
+    overflow-y: auto;
+  }
+  
+  .el-dialog__footer {
+    padding: 10px 20px 20px;
+    border-top: 1px solid $color-border;
+  }
+  
+  .dialog-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+  }
+  
+  // 卡片样式
+  .settings-card {
+    margin-bottom: 16px;
+    border-radius: 8px;
+    border: 1px solid $color-border;
+    overflow: hidden;
+    
+    .card-header {
+      display: flex;
+      height: 40px;
+      padding: 8px 16px;
+      align-items: center;
+      background: rgba(211, 219, 224, 0.4);
+      font-weight: 600;
+      font-size: 16px;
+      color: $color-text-primary;
+    }
+    
+    .card-body {
+      padding: 16px;
+    }
+  }
+  
+  // 表单样式
+  .settings-form {
+    .el-form-item__label {
+      font-weight: 500;
+      color: $color-text-secondary;
+    }
+    
+    .form-row {
+      display: flex;
+      gap: 16px;
+      
+      .form-col {
+        flex: 1;
+      }
+    }
+  }
+  
+  // 表格样式
+  .settings-table {
+    width: 100%;
+    border-collapse: collapse;
+    
+    .el-table {
+      --el-table-border-color: $color-border;
+      --el-table-header-bg-color: $color-bg-light;
+      
+      th {
+        background-color: $color-bg-light;
+        color: $color-text-primary;
+        font-weight: 600;
+      }
+    }
+  }
+  
+  // 标签样式
+  .settings-tag {
+    display: inline-flex;
+    height: 28px;
+    padding: 0 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: $color-bg-primary-medium;
+    color: $color-primary;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  // 分页容器
+  .pagination-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px;
+  }
+}

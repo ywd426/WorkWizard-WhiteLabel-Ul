@@ -1,0 +1,57 @@
+{
+  "route": {
+    "dashboard": "Dashboard",
+    "document": "Document"
+  },
+  "login": {
+    "username": "Username",
+    "password": "Password",
+    "login": "Login",
+    "code": "Verification Code",
+    "copyright": ""
+  },
+  "navbar": {
+    "full": "Full Screen",
+    "language": "Language",
+    "dashboard": "Dashboard",
+    "document": "Document",
+    "message": "Message",
+    "layoutSize": "Layout Size",
+    "selectTenant": "Select Tenant",
+    "layoutSetting": "Layout Setting",
+    "personalCenter": "Personal Center",
+    "logout": "Logout",
+    "timeZone": "Time Zone",
+    "units": "Units"
+  },
+  "layoutSetting": {
+    "themeStyleSetting": "Theme style setting",
+    "themeColor": "Theme Color",
+    "darkMode": "Dark Mode",
+    "systemLayoutConfiguration": "System Layout Configuration",
+    "openTopNav": "Open TopNav",
+    "openTagsViews": "Open Tags-Views",
+    "fixedHeader": "Fixed Header",
+    "showLogo": "Show Logo",
+    "dynamicTitle": "Dynamic Title",
+    "saveConfiguration": "Save",
+    "resetConfiguration": "Reset"
+  },
+  "msg": {
+    "messageReminder": "Message reminder"
+  },
+  "search": {
+    "search": "Search"
+  },
+  "notice": {
+    "notice": "Notice",
+    "allRead": "All read",
+    "read": "READ",
+    "unread": "UNREAD"
+  },
+  "sizeSelect": {
+    "large": "Large",
+    "default": "Default",
+    "small": "Small"
+  }
+}

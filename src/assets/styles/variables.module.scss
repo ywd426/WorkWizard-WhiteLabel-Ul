@@ -1,0 +1,214 @@
+// 全局SCSS变量
+:root {
+  --menuBg: #ffffff;
+  --menuColor: #41494e;
+  --menuActiveText: #0099ff;
+  --menuHover: #eeeeee;
+
+  --subMenuBg: #ffffff;
+  --subMenuActiveText: #0099ff;
+  --subMenuHover: #eeeeee;
+  --subMenuTitleHover: #eeeeee;
+
+  --fixedHeaderBg: #0099ff;
+  --tableHeaderBg: #d3dbe0;
+  --tableHeaderTextColor: #11191e;
+  --background-color: #7777770b;
+
+  // 工作流
+  --bpmn-panel-border: #eeeeee;
+  --bpmn-panel-box-shadow: #cccccc;
+  --bpmn-panel-bar-background-color: #f5f7fa;
+  //基础背景色
+  --baseBackground: #fff;
+  --reverseBaseBackground: #000;
+  // ele
+  --brder-color: #e8e8e8;
+  //form表单
+  //文字颜色
+  --el-text-color-b12: #11191e; //B12
+  --el-text-color-b31: #41494e; //B31
+  --el-text-color-b81: #c2cacf; //B81
+  --el-text-color-b69: #a2aaaf; //B69
+  --el-text-color-b49: #71797e; //B49
+
+  --el-text-color-alarm: #2e2e3a; //异常明细中副标题
+  //线颜色
+  --el-line-color-base: var(--menuActiveText);
+  --el-text-color-regular: #11191e;
+
+  //背景色
+  --el-background-color: #e1e9ee33;
+  --el-chart-background-color: #e1e9ee66;
+  --el-title-background-color: #e1e9ee99;
+  //  location背景色
+  --colors-base-location: #f4f6f7;
+  //基础颜色
+  --colors-base-primary: #0099ff;
+  //dialog 标题颜色
+  --el-text-color-primary: #000e33;
+  //border
+  --el-base-border-color: #d3dbe066;
+
+  //色板
+  --color-success: #00ba4a;
+  --color-danger: #ff384c;
+  --color-dark-blue: #0099ff;
+  --color-dark-yellow: #edb601;
+  --color-pink: #ff26a8;
+  --color-primary-background: #e1f0fa;
+  --color-base-green: #00ab9a;
+  --color-base-red: #ff4400;
+  --color-base-purple: #944dff;
+  --color-orange: #ff8401;
+  --color-yellow: #e6a23c;
+  //阴影色值
+  --el-box-shadow-start-color: #11191e0d;
+  --el-box-shadow-end-color: #11191e1a;
+  --el-box-shadow-search-color: #7777771a;
+  //card,search 背景色
+  --el-card-primary-flat05: #0099ff0d;
+  --el-card-primary-flat20: #0099ff33;
+  --el-card-primary-flat10: #0099ff1a;
+  --el-card-primary-flat40: #0099ff66;
+  //table斑马线划过颜色
+  --table-tr-hover: #e5f5ff;
+  //浅蓝色
+  --num-text-bg: #def2ff;
+  //日历模式日志的浅色背景
+  --calendar-log-event-bg: #e5f4fe;
+  --calendar-log-opertion-bg: #ccf1db;
+  --el-text-color-b12-flat40: #11191e66; //B12 40%
+
+  --calendar-detail-border: #e2ecff;
+  --calendar-detail-bg: #f3f6f8;
+  --color-success-flat10: #00ba4a1a;
+  //禁用背景色
+  --board-disabled-bg: #edf1f3;
+  //紫色背景色
+  --purple-bg-flat05: #944dff0d;
+
+  --el-base-border-color-flat10: #d3dbe01a;
+  --color-danger-flat10: #ff384c1a;
+  --tableHeaderBg-striped: #d3dbe0;
+  --colors-flat-B88-flat20: #d3dbe033;
+  //基础色透明背景
+  --colors-base-primary-flat10: #0099ff1a;
+
+  --color-comment-time: #7f8699;
+  --el-color-primary: #0099ff;
+}
+html.dark {
+  --menuBg: #1d1e1f;
+  --menuColor: #bfcbd9;
+  --menuActiveText: #f4f4f5;
+  --menuHover: #171819;
+
+  --subMenuBg: #1d1e1f;
+  --subMenuActiveText: #1d1e1f;
+  --subMenuHover: #171819;
+  --subMenuTitleHover: #171819;
+
+  --fixedHeaderBg: #171819;
+  --tableHeaderBg: var(--el-bg-color);
+  --tableHeaderTextColor: var(--el-text-color);
+
+  // 覆盖ele 高亮当前行的标准暗色
+  .el-tree-node__content {
+    --el-color-primary-light-9: #262727;
+  }
+  // vxe-table 主题
+  --vxe-font-color: #98989e;
+  --vxe-primary-color: #2c7ecf;
+  --vxe-icon-background-color: #98989e;
+  --vxe-table-font-color: #98989e;
+  --vxe-table-resizable-color: #95969a;
+  --vxe-table-header-background-color: #28282a;
+  --vxe-table-body-background-color: #151518;
+  --vxe-table-background-color: #4a5663;
+  --vxe-table-border-width: 1px;
+  --vxe-table-border-color: #37373a;
+  --vxe-toolbar-background-color: #37373a;
+
+  // 工作流
+  --bpmn-panel-border: #37373a;
+  --bpmn-panel-box-shadow: #37373a;
+  --bpmn-panel-bar-background-color: #37373a;
+
+  --baseBackground: #162446;
+  --reverseBaseBackground: #fff;
+  // ele
+  --brder-color: #37373a;
+  //文字颜色
+  --el-text-color-b12: #e1e9ee; //B12
+  --el-text-color-b31: #b1b9be; //B31
+  --el-text-color-b81: #30383d; //B81
+  --el-text-color-b69: #51595e; //B69
+  --el-text-color-b49: #80888d; //B49
+
+  //线颜色
+  --el-line-color-base: var(--menuActiveText);
+
+  --el-text-color-regular: #e1e9ee;
+
+  //table斑马线划过颜色
+  --table-tr-hover: #00101a;
+}
+
+// base color
+$blue: #324157;
+$light-blue: #3a71a8;
+$red: #c03639;
+$pink: #e65d6e;
+$green: #30b08f;
+$tiffany: #4ab7bd;
+$yellow: #fec171;
+$panGreen: #30b08f;
+
+// 默认菜单主题风格
+$base-menu-color: var(--menuColor);
+$base-menu-hover: var(--menuHover);
+$base-menu-color-active: var(--menuActiveText);
+$base-menu-background: var(--menuBg);
+$base-logo-title-color: #777777;
+
+$base-menu-light-color: rgba(0, 0, 0, 1);
+$base-menu-light-background: #ffffff;
+$base-logo-light-title-color: #001529;
+
+$base-sub-menu-background: var(--subMenuBg);
+$base-sub-menu-hover: var(--subMenuHover);
+$base-sub-menu-title-hover: var(--subMenuTitleHover);
+// 表单头背景色和标题颜色
+$fixed-header-bg: var(--fixedHeaderBg);
+$table-header-bg: var(--tableHeaderBg);
+$table-header-text-color: var(--tableHeaderTextColor);
+$menu-hover-color: rgb(0, 153, 255, 10%);
+
+$--color-primary: #0099ff;
+$--color-success: #00ba4a;
+$--color-warning: #000;
+$--color-danger: #ff384c;
+$--color-info: #909399;
+
+$base-sidebar-width: 280px;
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  menuColor: $base-menu-color;
+  menuLightColor: $base-menu-light-color;
+  menuColorActive: $base-menu-color-active;
+  menuBackground: $base-menu-background;
+  menuLightBackground: $base-menu-light-background;
+  subMenuBackground: $base-sub-menu-background;
+  subMenuHover: $base-sub-menu-hover;
+  sideBarWidth: $base-sidebar-width;
+  logoTitleColor: $base-logo-title-color;
+  logoLightTitleColor: $base-logo-light-title-color;
+  primaryColor: $--color-primary;
+  successColor: $--color-success;
+  dangerColor: $--color-danger;
+  infoColor: $--color-info;
+  warningColor: $--color-warning;
+}

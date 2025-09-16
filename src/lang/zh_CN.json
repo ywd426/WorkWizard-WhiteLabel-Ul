@@ -1,0 +1,58 @@
+{
+  "route": {
+    "dashboard": "首页",
+    "document": "项目文档"
+  },
+  "login": {
+    "username": "用户名",
+    "password": "密码",
+    "login": "登 录",
+    "code": "请输入验证码",
+    "copyright": ""
+  },
+  "navbar": {
+    "full": "全屏",
+    "language": "语言",
+    "dashboard": "首页",
+    "document": "项目文档",
+    "message": "消息",
+    "layoutSize": "布局大小",
+    "selectTenant": "选择租户",
+    "layoutSetting": "布局设置",
+    "personalCenter": "个人中心",
+    "logout": "退出登录",
+    "timeZone": "时区",
+    "units": "单位"
+
+  },
+  "layoutSetting": {
+    "themeStyleSetting": "主题风格设置",
+    "themeColor": "主题颜色",
+    "darkMode": "深色模式",
+    "systemLayoutConfiguration": "系统布局配置",
+    "openTopNav": "开启 TopNav",
+    "openTagsViews": "开启 Tags-Views",
+    "fixedHeader": "固定 Header",
+    "showLogo": "显示 Logo",
+    "dynamicTitle": "动态标题",
+    "saveConfiguration": "保存配置",
+    "resetConfiguration": "重置配置"
+  },
+  "msg": {
+    "messageReminder": "消息提醒"
+  },
+  "search": {
+    "search": "搜索"
+  },
+  "notice": {
+    "notice": "通知公告",
+    "allRead": "全部已读",
+    "read": "已读",
+    "unread": "未读"
+  },
+  "sizeSelect": {
+    "large": "较大",
+    "default": "默认",
+    "small": "稍小"
+  }
+}

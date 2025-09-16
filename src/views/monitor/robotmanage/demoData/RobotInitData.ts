@@ -1,0 +1,80 @@
+export default [
+  {
+    id: 'S01',
+    robotType: 'PUDU CC1',
+    robotName: 'Alpha 01',
+    robotSN: '345567782',
+    location: 'Hall, W, Level4, San Diego Central Library, San Diego, CA, Southwest',
+    currentTask: 'Hall Cleaning',
+    totalTasks: '91',
+    totalRunningHours: '12h 30min',
+    totalMileage: '3km',
+    totalArea: '320m2',
+    status: 'Active'
+  },
+  {
+    id: 'S02',
+    robotType: 'PUDU CC1',
+    robotName: 'Alpha 02',
+    robotSN: '945567790',
+    location: 'Room 01, W, Level4, San Diego Central Library, San Diego, CA, Southwest',
+    currentTask: 'Room01 Cleaning',
+    totalTasks: '73',
+    totalRunningHours: '3h 20min',
+    totalMileage: '2.3km',
+    totalArea: '150m2',
+    status: 'Active'
+  },
+  {
+    id: 'S03',
+    robotType: 'PUDU CC1',
+    robotName: 'Alpha 03',
+    robotSN: '545567112',
+    location: 'Room 02, W, Level4, San Diego Central Library, San Diego, CA, Southwest',
+    currentTask: 'Room02 Cleaning',
+    totalTasks: '11',
+    totalRunningHours: '1h 03min',
+    totalMileage: '0.29km',
+    totalArea: '79.5m2',
+    status: 'Active'
+  },
+  {
+    id: 'S04',
+    robotType: 'PUDU CC1',
+    robotName: 'Alpha 07',
+    robotSN: '244567112',
+    location: 'Room 02, W, Level4, San Diego Central Library, San Diego, CA, Southwest',
+    currentTask: 'NULL',
+    totalTasks: '0',
+    totalRunningHours: '0',
+    totalMileage: '0',
+    totalArea: '0',
+    status: 'Suspended'
+  },
+  {
+    id: 'S05',
+    robotType: 'PUDU CC1',
+    robotName: 'Alpha 11',
+    robotSN: '884567317',
+    location: 'Room 12, W, Level4, San Diego Central Library, San Diego, CA, Southwest',
+    currentTask: 'NULL',
+    totalTasks: '0',
+    totalRunningHours: '0',
+    totalMileage: '0',
+    totalArea: '0',
+    status: 'Deactivated'
+  },
+  {
+    id: 'S09',
+    robotType: 'PUDU CC1',
+    robotName: 'Beta 01',
+    robotSN: '376668255',
+    location: 'Restroom, W, Level4, San Diego Central Library, San Diego, CA, Southwest',
+    currentTask: 'NULL',
+    totalTasks: '23',
+    totalRunningHours: '57min',
+    totalMileage: '1.1km',
+    totalArea: '45.6m2',
+    status: 'Active'
+  }
+];

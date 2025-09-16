@@ -1,0 +1,106 @@
+@media screen and (min-width: 744px) and (max-width: 1366px) and (orientation: portrait),
+screen and (min-width: 744px) and (max-width: 1366px) and (orientation: landscape) {
+  #home-page {
+    .robot div {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  #home-main-container-chart {
+    .header {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      justify-content: flex-end;
+      padding-bottom: 0.75rem;
+
+      h2,
+      div {
+        width: 100%;
+      }
+    }
+
+    .card-container {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+
+      .card {
+        display: flex;
+        flex-direction: row;
+        gap: 0.125rem;
+        width: 100%;
+        height: 4rem;
+        align-items: center;
+
+        svg {
+          width: 1.5rem;
+          height: 1.5rem;
+          margin-top: 0.75rem;
+        }
+
+        .card-text {
+          flex: 1 1 0%;
+          padding: 0.5rem;
+        }
+      }
+    }
+  }
+
+  #whether-card {
+    padding: 1rem;
+
+    .weather-details {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      gap: 0.125rem;
+
+      .detail {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+
+        .label {
+          text-align: right;
+        }
+      }
+    }
+
+    .weather-main {
+      gap: 0.5rem;
+    }
+
+    .temperature {
+      font-size: 1.5rem;
+    }
+  }
+
+  #home-savings-card {
+    padding: 1rem 0.5rem;
+    .savings-details {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      gap: 0.5rem;
+    }
+
+    .divider {
+      display: none;
+    }
+
+    .detail {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-between;
+      font-size: 1rem;
+
+      .label {
+        font-size: 1rem;
+        text-align: left;
+      }
+    }
+  }
+}
